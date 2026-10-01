@@ -1,5 +1,5 @@
-import { uid, todayStr, last7Days, monthPrefix, dayOfMonth, escapeHtml, minutesToLabel, toPositiveInt } from '../utils.js';
-import { card, toast, openModal, confirmDialog, progressBar } from '../components.js';
+import { uid, todayStr, last7Days, monthPrefix, dayOfMonth, escapeHtml, minutesToLabel, toPositiveInt } from './utils.js';
+import { card, toast, openModal, confirmDialog, progressBar } from './components.js';
 
 export function studyHabitId(state) {
   const h = state.habits.find((h) => h.id === 'h_study') || state.habits.find((h) => h.categoryId === 'study');
