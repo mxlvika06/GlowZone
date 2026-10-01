@@ -1,7 +1,7 @@
-import { uid, escapeHtml, todayStr, toPositiveInt } from '../utils.js';
-import { CATEGORIES } from '../schema.js';
-import { card, toast, confirmDialog, openModal, autosave } from '../components.js';
-import { applyTheme } from '../theme.js';
+import { uid, escapeHtml, todayStr, toPositiveInt } from './utils.js';
+import { CATEGORIES } from './schema.js';
+import { card, toast, confirmDialog, openModal, autosave } from './components.js';
+import { applyTheme } from './theme.js';
 
 export function renderSettings(root, store) {
   function draw() {
