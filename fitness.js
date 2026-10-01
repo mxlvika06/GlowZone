@@ -1,6 +1,6 @@
-import { uid, todayStr, last7Days, escapeHtml } from '../utils.js';
-import { card, toast, openModal, confirmDialog } from '../components.js';
-import { getLog, toggleBoolean, computeHabitStreak } from '../habits.js';
+import { uid, todayStr, last7Days, escapeHtml } from './utils.js';
+import { card, toast, openModal, confirmDialog } from './components.js';
+import { getLog, toggleBoolean, computeHabitStreak } from './habits.js';
 
 function fitnessHabit(state) {
   return state.habits.find((h) => h.id === 'h_fitness') || state.habits.find((h) => h.categoryId === 'fitness');
