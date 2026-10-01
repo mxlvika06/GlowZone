@@ -1,5 +1,5 @@
-import { uid, todayStr, last7Days, escapeHtml, minutesToLabel, formatDateShort } from '../utils.js';
-import { card, toast, openModal, confirmDialog } from '../components.js';
+import { uid, todayStr, last7Days, escapeHtml, minutesToLabel, formatDateShort } from './utils.js';
+import { card, toast, openModal, confirmDialog } from './components.js';
 
 function badmintonHabitId(state) {
   const h = state.habits.find((h) => h.id === 'h_badminton') || state.habits.find((h) => h.categoryId === 'badminton');
