@@ -1,6 +1,6 @@
 import { uid, todayStr, escapeHtml } from './utils.js';
 import { card, toast, confirmDialog } from './components.js';
-import { getLog, toggleBoolean, habitsForCategory } from '../habits.js';
+import { getLog, toggleBoolean, habitsForCategory } from './habits.js';
 
 export function renderPosture(root, store) {
   function draw() {
