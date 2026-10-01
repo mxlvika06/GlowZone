@@ -1,6 +1,6 @@
-import { uid, last7Days, escapeHtml, minutesToLabel, toPositiveInt, formatDateShort } from '../utils.js';
-import { card, toast, openModal, confirmDialog } from '../components.js';
-import { getSession, startSession, pauseSession, resumeSession, getElapsedSeconds, endSession } from '../focusEngine.js';
+import { uid, last7Days, escapeHtml, minutesToLabel, toPositiveInt, formatDateShort } from './utils.js';
+import { card, toast, openModal, confirmDialog } from './components.js';
+import { getSession, startSession, pauseSession, resumeSession, getElapsedSeconds, endSession } from './focusEngine.js';
 import { logStudyMinutes } from './study.js';
 
 function formatClock(totalSeconds) {
