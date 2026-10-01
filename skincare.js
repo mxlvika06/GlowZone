@@ -1,5 +1,5 @@
-import { todayStr, escapeHtml } from '../utils.js';
-import { card, toast, autosave, confirmDialog } from '../components.js';
+import { todayStr, escapeHtml } from './utils.js';
+import { card, toast, autosave, confirmDialog } from './components.js';
 
 function getDayLog(state, date) {
   return state.skincareLog[date] || { morning: [], night: [], note: '' };
