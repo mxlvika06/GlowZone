@@ -5,16 +5,16 @@ import { toast, isModalOpen } from './components.js';
 import { todayStr } from './utils.js';
 import { applyTheme } from './theme.js';
 
-import { renderDashboard } from './sections/dashboard.js';
-import { renderFitness } from './sections/fitness.js';
-import { renderBadminton } from './sections/badminton.js';
-import { renderSkincare } from './sections/skincare.js';
-import { renderHaircare } from './sections/haircare.js';
-import { renderPosture } from './sections/posture.js';
-import { renderSocial } from './sections/social.js';
-import { renderStudy } from './sections/study.js';
-import { renderFocusTimer } from './sections/focusTimer.js';
-import { renderSettings } from './sections/settings.js';
+import { renderDashboard } from './dashboard.js';
+import { renderFitness } from './fitness.js';
+import { renderBadminton } from './badminton.js';
+import { renderSkincare } from './skincare.js';
+import { renderHaircare } from './haircare.js';
+import { renderPosture } from './posture.js';
+import { renderSocial } from './social.js';
+import { renderStudy } from './study.js';
+import { renderFocusTimer } from './focusTimer.js';
+import { renderSettings } from './settings.js';
 
 const store = new Store(defaultState);
 window.__glowupStore = store; // handy for debugging in devtools
