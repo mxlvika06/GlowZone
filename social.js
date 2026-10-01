@@ -1,5 +1,5 @@
-import { todayStr, escapeHtml, formatDateShort } from '../utils.js';
-import { card, toast, autosave, confirmDialog } from '../components.js';
+import { todayStr, escapeHtml, formatDateShort } from './utils.js';
+import { card, toast, autosave, confirmDialog } from './components.js';
 
 const EMPTY_DAY = () => ({ completed: [], wentWell: '', awkward: '', tomorrow: '' });
 
