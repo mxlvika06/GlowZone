@@ -1,9 +1,9 @@
-import { CATEGORIES } from '../schema.js';
-import { todayStr, last7Days, weekdayNarrow, pct, formatDateHuman, minutesToLabel, escapeHtml } from '../utils.js';
-import { card, circularProgress, progressBar } from '../components.js';
-import { navigate } from '../router.js';
-import { activeHabits, isHabitDone, toggleBoolean } from '../habits.js';
-import { getSession, getElapsedSeconds } from '../focusEngine.js';
+import { CATEGORIES } from './schema.js';
+import { todayStr, last7Days, weekdayNarrow, pct, formatDateHuman, minutesToLabel, escapeHtml } from './utils.js';
+import { card, circularProgress, progressBar } from './components.js';
+import { navigate } from './router.js';
+import { activeHabits, isHabitDone, toggleBoolean } from './habits.js';
+import { getSession, getElapsedSeconds } from './focusEngine.js';
 import { computeStudyStats, openQuickCheckinModal, daysUntil, dueLabel } from './study.js';
 import { openSessionEditor } from './badminton.js';
 
